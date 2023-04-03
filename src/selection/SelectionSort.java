@@ -1,4 +1,4 @@
-package quick_sort;
+package selection;
 
 /**
  * 关于快速排序的算法

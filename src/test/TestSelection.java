@@ -1,6 +1,6 @@
 package test;
 
-import quick_sort.SelectionSort;
+import selection.SelectionSort;
 
 import java.util.Arrays;
 
