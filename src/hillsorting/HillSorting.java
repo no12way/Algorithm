@@ -14,7 +14,7 @@ public class HillSorting {
         while (h < a.length/2){ h = 2*h+1 ;}//算出最长步长
         while (h >=1){
             for (int i = h ; i <= a.length-1 ; i++ ) {//对所在的组内进行插入排序
-             for (int j = i; j-h >= 0 ;j-= h) {//j-h大于等于0就不会出现数组越界
+             for (int j = i; j-h >= 0 ;j-= h) {//j-h大于等于0就不会出现数组越界,插入排序认为j之前的元素有序
                 if(compare(a[j-h],a[j])){
                     exchange(a,j-h,j);
                     }
